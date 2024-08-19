@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shapes Calulate</title>
+  <style>
+  
+    .box{
+     
+      height: 55vh;
+      width: 400px;
+      margin-top: 150px;
+      margin-left: 35%;
+
+    }
+    .fi img{
+      height: 100px;
+      padding: 20px;
+    }
+    .sec img{
+      height: 100px;
+      padding: 20px;
+      margin-left: 100px;
+    }
+    .fir,.las{
+      display: flex;
+    }
+    .cen img{
+      height: 100px;
+      margin-left:150px;
+    }
+    .la img{
+      height: 100px;
+      padding: 20px;
+    }
+     .la-sec img{
+      height: 100px;
+      padding: 20px;
+margin-left: 50px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="box">
+
+    <div class="fir">
+      <div class="fi">
+        <img onclick="im1() " src="download.jpeg">
+      </div>
+      <div class="sec">
+        <img onclick="im2()" src="circle.jpg">
+      </div>
+    </div>
+  <div class="cen">
+    <img onclick="im3()" src="cylinder.png">
+  </div>
+<div class="las">
+  <div class="la">
+    <img onclick="im4()" src="abc.png">
+  </div>
+  <dic class="la-sec">
+    <img onclick="im5()" src="download (1).jpeg
+    ">
+  </dic>
+</div>
+
+  </div>
+     
+<script>
+
+function im1()
+ {
+    let a=prompt ('Enter the side of square')
+   
+    let res= a*a;
+   alert (`The  area of the square ${res}`)
+
+}
+function im2()
+{
+    let a=prompt('Subration')
+    let a1=prompt('Subration')
+   
+    let res= a-a1
+   
+    alert (`Answer: ${res}`)
+}
+
+function im3()
+{
+    let a=prompt('Multification')
+    let a1=prompt('Multification')
+    
+
+    let res= a*a1
+    alert (`Answer: ${res}`)
+}
+function im4()
+{
+    let a=prompt('Division')
+    let a1=prompt('Division')
+
+    let res= a/a1
+
+    alert (`Answer: ${res}`)
+}
+function im5()
+{
+    let a=prompt('Modulo Division')
+    let a1=prompt('Modulo Division')
+  
+     let res= a%a1
+
+     alert (`Answer: ${res}`)
+}
+
+</script>
+</body>
+</html>
